@@ -4,17 +4,27 @@ Python client library for the [0DIN](https://0din.ai/) Threat Feed API. Provides
 
 ## Installation
 
-Requires Python 3.11+. Install with [uv](https://docs.astral.sh/uv/):
+Requires Python 3.11+. Add to your project with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv add threat-feed-client
+uv add git+https://github.com/0din-ai/threat-feed-python.git
+
+# or
+
+uv add git+ssh://github.com/0din-ai/threat-feed-python.git
 ```
 
-Or for development:
+Or install from a local checkout:
 
 ```bash
-git clone <repo-url>
-cd threat-feed-client
+uv add /path/to/threat-feed-python
+```
+
+For development on the client itself:
+
+```bash
+git clone https://github.com/0din-ai/threat-feed-python.git
+cd threat-feed-python
 uv sync
 ```
 
