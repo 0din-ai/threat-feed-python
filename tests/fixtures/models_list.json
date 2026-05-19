@@ -1,0 +1,10 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "total_count": 3,
+  "models": [
+    {"id": 281110143, "name": "Gemini", "retired": false, "vendor": {"name": "Google"}},
+    {"id": 298486374, "name": "Hunyuan", "retired": false, "vendor": {"name": "Tencent"}},
+    {"id": 838793361, "name": "Retired", "retired": true, "vendor": {"name": "X"}}
+  ]
+}

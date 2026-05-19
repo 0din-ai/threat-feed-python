@@ -1,0 +1,29 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "total_count": 1,
+  "attacks": [
+    {
+      "id": 1,
+      "vulnerability": {"uuid": "abc12345", "summary": "Test vuln"},
+      "techniques": ["fictionalizing", "capitalizing"],
+      "created_at": "2025-04-20T10:00:00.000Z",
+      "updated_at": "2025-04-20T10:00:00.000Z",
+      "test_types": ["cve"],
+      "messages": [
+        {
+          "id": 1,
+          "prompt": "Attack prompt",
+          "response": "Attack response",
+          "model_id": 1,
+          "interface": "api",
+          "pinned": false,
+          "test_types": ["cve"]
+        }
+      ],
+      "text_anchors": [
+        {"id": 1, "anchor": "important text", "replacements": ["alt text"], "transformation": "synonym"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "31f21827-8474-4eb9-8392-ec59956f78e7",
+  "title": "Disclosed Vuln",
+  "summary": "Test summary",
+  "detail": "Detailed description",
+  "severity": "low",
+  "security_boundary": "guardrail_jailbreak",
+  "source": "internal",
+  "disclosed_at": "2025-04-23T16:26:22.000Z",
+  "published_at": null,
+  "updated_at": "2025-04-23T16:26:22.422Z",
+  "detection_signatures": [
+    {"version": "1", "signature": "abc123"}
+  ],
+  "models": [
+    {"id": 980190962, "name": "M6", "vendor": {"name": "Alibaba"}}
+  ],
+  "messages": [
+    {
+      "prompt": "Test prompt",
+      "response": "Test response",
+      "model_id": 980190962,
+      "interface": "api"
+    }
+  ],
+  "taxonomies": [
+    {"category": "rhetoric", "strategy": "persuasion_and_manipulation", "technique": "fictionalizing"},
+    {"category": "fictionalizing", "strategy": "meta_prompting", "technique": "capitalizing"}
+  ],
+  "test_results": [
+    {"result": 1.5, "temperature": -0.1, "model_id": 980190962, "test_type": {"id": 1, "name": "cve"}},
+    {"result": 1.5, "temperature": 1.1, "model_id": 980190962, "test_type": {"id": 2, "name": "meth"}}
+  ],
+  "metadata": [
+    {"type": "SocialImpact", "result": 3},
+    {"type": "NudeImageryScore", "result": 3}
+  ],
+  "reference_urls": [],
+  "variant_prompts": []
+}

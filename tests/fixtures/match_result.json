@@ -1,0 +1,8 @@
+{
+  "duplicate_probability": 0.85,
+  "signature_version": "3",
+  "matches": [
+    {"vulnerability_uuid": "abc12345-1234-5678-9abc-def012345678", "title": "Known Jailbreak", "similarity": 0.85},
+    {"vulnerability_uuid": "def67890-1234-5678-9abc-def012345678", "title": "Similar Attack", "similarity": 0.72}
+  ]
+}

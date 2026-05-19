@@ -1,0 +1,78 @@
+{
+  "page": 1,
+  "total_pages": 2,
+  "total_count": 3,
+  "threat_feeds": [
+    {
+      "uuid": "31f21827-8474-4eb9-8392-ec59956f78e7",
+      "title": "Disclosed Vuln",
+      "summary": "Test summary",
+      "detail": "Detailed description",
+      "severity": "low",
+      "security_boundary": "guardrail_jailbreak",
+      "source": "internal",
+      "disclosed_at": "2025-04-23T16:26:22.000Z",
+      "published_at": null,
+      "updated_at": "2025-04-23T16:26:22.422Z",
+      "detection_signatures": [
+        {"version": "1", "signature": "abc123"}
+      ],
+      "models": [
+        {"id": 980190962, "name": "M6", "vendor": {"name": "Alibaba"}}
+      ],
+      "messages": [
+        {
+          "prompt": "Test prompt text",
+          "response": "Test response text",
+          "model_id": 980190962,
+          "interface": "api"
+        }
+      ],
+      "taxonomies": [
+        {"category": "rhetoric", "strategy": "persuasion_and_manipulation", "technique": "fictionalizing"}
+      ],
+      "test_results": [
+        {"result": 1.5, "temperature": -0.1, "model_id": 980190962, "test_type": {"id": 1, "name": "cve"}}
+      ],
+      "metadata": [
+        {"type": "SocialImpact", "result": 3}
+      ],
+      "reference_urls": [
+        {"id": 1, "url": "https://example.com/ref"}
+      ],
+      "variant_prompts": []
+    },
+    {
+      "uuid": "3a5fbd88-50cf-4638-abf8-b1f2d316adac",
+      "title": "Published Vuln",
+      "summary": "Finally out",
+      "detail": "The whole world can see this!",
+      "severity": "low",
+      "security_boundary": "guardrail_jailbreak",
+      "source": "external",
+      "disclosed_at": "2025-04-22T00:00:00.000Z",
+      "published_at": "2025-04-23T16:26:22.000Z",
+      "updated_at": "2025-04-23T16:26:22.422Z",
+      "detection_signatures": [],
+      "models": [
+        {"id": 980190962, "name": "M6", "vendor": {"name": "Alibaba"}},
+        {"id": 298486374, "name": "Hunyuan", "vendor": {"name": "Tencent"}}
+      ],
+      "messages": [
+        {
+          "prompt": "Another test prompt",
+          "response": "Another test response",
+          "model_id": 980190962,
+          "interface": "api"
+        }
+      ],
+      "taxonomies": [
+        {"category": "rhetoric", "strategy": "persuasion_and_manipulation", "technique": "fictionalizing"}
+      ],
+      "test_results": [],
+      "metadata": [],
+      "reference_urls": [],
+      "variant_prompts": []
+    }
+  ]
+}
