@@ -11,7 +11,7 @@ uv add git+https://github.com/0din-ai/threat-feed-python.git
 
 # or
 
-uv add git+ssh://github.com/0din-ai/threat-feed-python.git
+uv add git+ssh://git@github.com/0din-ai/threat-feed-python.git
 ```
 
 Or install from a local checkout:
