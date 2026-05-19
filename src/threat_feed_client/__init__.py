@@ -1,5 +1,7 @@
 """Python client library for the 0DIN Threat Feed API."""
 
+__version__ = "0.0.1"
+
 from .async_client import AsyncThreatFeedClient
 from .client import ThreatFeedClient
 from ._pagination import PaginatedResponse
